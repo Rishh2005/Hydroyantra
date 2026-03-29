@@ -20,8 +20,7 @@ export function KpiProduction({ value, delta, status }: { value: number; delta: 
       </CardContent>
     </Card>
   )
-}
-
+  
 export function KpiEnergy({ value, renewablePct, cost }: { value: number; renewablePct: number; cost: number }) {
   return (
     <Card className="transition hover:shadow-md">
